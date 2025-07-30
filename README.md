@@ -32,5 +32,5 @@ A real-time monitoring system to detect, educate, and act on information threats
 
 1. Clone the repo  
 ```bash
-git clone https://github.com/<your-username>/secure-intel-dashboard.git
-cd secure-intel-dashboard
+git clone https://github.com/SShreyagaur/LG-Secure.git
+cd LG-Secure
