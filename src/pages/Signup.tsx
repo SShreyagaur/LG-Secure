@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import LoginForm from '../components/Auth/LoginForm';
+import SignupForm from '../components/Auth/SignupForm';
 import RoleSelector from '../components/Auth/RoleSelector';
 
-const Login = () => {
+const Signup = () => {
   const [role, setRole] = useState<'admin' | 'employee'>('employee');
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
       <RoleSelector selectedRole={role} setRole={setRole} />
-      <LoginForm role={role} />
+      <SignupForm role={role} />
     </div>
   );
 };
 
-export default Login;
+export default Signup;
